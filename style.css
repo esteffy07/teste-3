@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212; /* Preto de fundo */
+    color: #ffcc00; /* Amarelo vibrante */
+}
+
+header {
+    background-color: #ffcc00; /* Amarelo CBJR */
+    color: black;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.hero {
+    background-image: url('../img/background.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    padding: 50px;
+    color: white; /* Texto visível na imagem */
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid #ffcc00; /* Borda amarela */
+}
+
+.galeria img {
+    width: 200px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
