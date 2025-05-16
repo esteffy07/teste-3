@@ -1,0 +1,15 @@
+/chorao-site
+│── /css
+│    ├── style.css
+│── /js
+│    ├── script.js
+│── /img
+│    ├── chorao1.jpg
+│    ├── chorao2.jpg
+│    ├── background.jpg
+│── /pages
+│    ├── bio.html
+│    ├── musicas.html
+│    ├── legado.html
+│── index.html
+│── README.md
